@@ -264,7 +264,7 @@ function yamlCommand (app: Solution, argv: minimist.ParsedArgs, log: Log) {
   const config = loadConfig(argv, log)
 
   const noKustomizeMsg =
-    `Generating YAML without clutser or context specific layers:
+    `Generating YAML without cluster or context specific layers:
          Unable to generate Ingress
          Unable to generate image name rewriting directives`
   if (argv.output) {
